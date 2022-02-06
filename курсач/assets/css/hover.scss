@@ -1,0 +1,80 @@
+.hero__nav li a:hover,
+.buy-popup:hover {
+   color: rgba(255, 255, 255, 0.5);
+}
+
+.hover-popup:hover .hero__buy-popup {
+   opacity: 1;
+}
+
+.button:hover {
+   background: #F9F9F9;
+   color: black;
+   box-shadow: 0px 4px 40px #C58667;
+}
+
+.tab:hover {
+   &::before {
+      top: 0;
+      left: 0;
+   }
+}
+
+.ss__card:hover {
+   cursor: pointer;
+
+   &::before {
+      transform: rotate(15deg);
+      width: 200%;
+      height: 200%;
+      left: -50%;
+   }
+}
+
+.fifth-card:hover,
+.sixth-card:hover {
+   img {
+      transform: rotate(-15deg);
+      width: 150%;
+      height: 150%;
+      margin-top: -80px;
+      margin-left: -40px;
+   }
+}
+
+.squares__item-first:hover,
+.squares__item-second:hover,
+.squares__item-third:hover,
+.squares__item-fourth:hover,
+.squares__item-fifth:hover,
+.squares__item-sixth:hover {
+   box-shadow: 0px 4px 40px #c5866750;
+
+   .item {
+      opacity: 0;
+   }
+
+   &::before {
+      opacity: 1;
+   }
+}
+
+.email-block__button {
+   cursor: pointer;
+}
+
+.back-to-main:hover {
+   cursor: pointer;
+
+   .back-to-main__arrow {
+      width: 60px;
+   }
+}
+
+.card__info-close:hover {
+   box-shadow: 0px 4px 40px #c5866750;
+}
+
+.bottom-icon__text a:hover {
+   color: rgba(255, 255, 255, 0.5);
+}

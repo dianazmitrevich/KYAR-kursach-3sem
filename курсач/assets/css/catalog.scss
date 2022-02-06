@@ -1,0 +1,89 @@
+.second-screen__subtitle,
+.second-screen__title {
+   display: none;
+}
+
+.second-screen {
+   padding: 40px 0 90px;
+}
+
+.ss-content {
+   display: flex;
+   flex-direction: row;
+}
+
+.second-screen__tabs {
+   flex-direction: column;
+   flex-wrap: nowrap;
+   height: 310px;
+   margin-right: 119px;
+}
+
+.second-screen__cards {
+   margin: 0 0 40px 0;
+}
+
+.fish-cards__title {
+   font-family: 'Noto Serif';
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 41px;
+   margin-bottom: 10px;
+}
+
+.fish-cards__subtitle {
+   font-family: 'Gilroy';
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 140%;
+   margin-bottom: 20px;
+}
+
+.back-to-main {
+   position: sticky;
+   top: 20px;
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 20px;
+
+   img {
+      margin-right: 20px;
+   }
+}
+
+.back-to-main__text {
+   font-family: 'Gilroy';
+   font-weight: 400;
+   font-size: 21px;
+   line-height: 140%;
+   color: var(--dark);
+}
+
+.tab-active {
+   a.tab__text {
+      color: var(--light);
+   }
+}
+
+.second-screen__tabs {
+   position: sticky;
+   top: 70px;
+}
+
+.card__info {
+   width: 720px;
+   overflow-x: hidden;
+   margin-top: 2px;
+
+   .sizes {
+      width: 450px;
+   }
+}
+
+.card__info-img  {
+   margin-left: -300px;
+}
+
+.card__info-close {
+   margin-left: 650px;
+}

@@ -1,0 +1,104 @@
+.second-screen__subtitle,
+.second-screen__title {
+  display: none;
+}
+
+.second-screen {
+  padding: 40px 0 90px;
+}
+
+.ss-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.second-screen__tabs {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  height: 310px;
+  margin-right: 119px;
+}
+
+.second-screen__cards {
+  margin: 0 0 40px 0;
+}
+
+.fish-cards__title {
+  font-family: 'Noto Serif';
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  margin-bottom: 10px;
+}
+
+.fish-cards__subtitle {
+  font-family: 'Gilroy';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  margin-bottom: 20px;
+}
+
+.back-to-main {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.back-to-main img {
+  margin-right: 20px;
+}
+
+.back-to-main__text {
+  font-family: 'Gilroy';
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 140%;
+  color: var(--dark);
+}
+
+.tab-active a.tab__text {
+  color: var(--light);
+}
+
+.second-screen__tabs {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 70px;
+}
+
+.card__info {
+  width: 720px;
+  overflow-x: hidden;
+  margin-top: 2px;
+}
+
+.card__info .sizes {
+  width: 450px;
+}
+
+.card__info-img {
+  margin-left: -300px;
+}
+
+.card__info-close {
+  margin-left: 650px;
+}
+/*# sourceMappingURL=catalog.css.map */
